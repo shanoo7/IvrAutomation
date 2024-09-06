@@ -1,6 +1,6 @@
 import React from "react";
 
-const Details = ({ logs }) => {
+const Details = ({ logs = [] }) => {
   return (
     <div className="mb-6 min-h-screen">
       <h2 className="text-2xl font-semibold mb-4 mt-4 text-center">Logs</h2>
